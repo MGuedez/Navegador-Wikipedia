@@ -1,0 +1,57 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----------CONTAINER----------- */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2rem;
+}
+
+/* ----------BROWSER CONTAINER----------- */
+.browser__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 10rem;
+    justify-items: center;
+    align-items: center;
+}
+
+/*? ----------CENTRAL LOGOTYPE----------- */
+.logo {
+    margin: 0;
+}
+
+.logo img {
+    width: 6rem;
+    object-fit: cover;
+}
+
+.central__title {
+    grid-column-start: span 2;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 2rem;
+    text-align: center;
+    margin: 0;
+}
+
+.central__title .letter {
+    font-size: 3.5rem;
+}
+
+.central__title--subtitle {
+    display: block;
+    font-size: 1.5rem;
+    text-transform: initial;
+}
