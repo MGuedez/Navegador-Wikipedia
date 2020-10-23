@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wikipedia</title>
+    <!-- icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <!-- favicon -->
     <link rel="shortcut icon" href="https://img2.freepng.es/20180419/vxe/kisspng-wikipedia-logo-wikimedia-project-w-vector-5ad87107a1fab0.8655360915241341516635.jpg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
@@ -20,6 +22,21 @@
                     La enciclopedia libre
                 </span>
             </h1>
+            <form action="" class="search">
+                <input type="search" class="search__input" id="search__input">
+                <label for="search__input" class="button__select--language">
+                    <select name="">
+                        <option value="">ES</option>
+                        <option value="">EN</option>
+                        <option value="">DE</option>
+                        <option value="">FR</option>
+                        <option value="">PT</option>
+                </select>
+                </label>
+                <button type="submit" class="search__button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
         </section>
         <section class="browser__information">
 
