@@ -183,8 +183,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto;
     align-items: center;
-    grid-row-gap: 1rem;
+    grid-row-gap: 2rem;
+    grid-column-gap: 2rem;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+    font-size: 1.4rem;
 }
 
 /* ?------------CENTRAL INFORMATION WIKIPEDIA-------------- */
@@ -205,8 +207,38 @@ body {
 }
 
 .central__information--description {
-    font-size: 1.5rem;
     text-align: center;
 }
 
-/*? ----------CENTRAL INFORMATION----------- */
+/*? ----------OTHER PROJECT----------- */
+.other__project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.other__project figure {
+    margin: 0;
+}
+
+.other__project img {
+    width: 4rem;
+    object-fit: cover;
+}
+
+.other__project h3 {
+    color: var(--title--color);
+    margin: 0;
+    line-height: .8rem;
+    font-weight: 300;
+}
+
+.other__project p {
+    font-size: 1.2rem;
+}
+
+.other__project h3,
+.other__project p {
+    padding-left: 1rem;
+}
