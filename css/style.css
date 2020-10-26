@@ -30,6 +30,7 @@ body {
     grid-auto-rows: auto;
     align-items: center;
     grid-row-gap: 1rem;
+    padding-top: 2rem;
 }
 
 /*? ----------CENTRAL LOGOTYPE----------- */
@@ -144,6 +145,10 @@ body {
     outline: none;
     background: none;
     margin-bottom: 2rem;
+}
+
+.button__articles--language {
+    background-color: #f8f9fa;
 }
 
 .button__articles--img {
@@ -266,4 +271,15 @@ body {
 .download__application a img {
     width: 12rem;
     height: 4rem;
+}
+
+/*? ----------LICENSE TERMS AND CONDITIONS----------- */
+.license__terms--conditions {
+    grid-column-start: span 2;
+    text-align: center;
+}
+
+.license__terms--conditions a {
+    text-decoration: none;
+    color: var(--title--color);
 }
