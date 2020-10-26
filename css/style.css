@@ -242,3 +242,28 @@ body {
 .other__project p {
     padding-left: 1rem;
 }
+
+/*? ----------DOWNLOAD APPLICATION----------- */
+
+.download__application {
+    grid-column-start: span 2;
+    background-color: #f8f9fa;;
+}
+
+.download__application h3,
+.download__application p {
+    text-align: center;
+}
+
+.download__application ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    padding: 1rem 0;
+}
+
+.download__application a img {
+    width: 12rem;
+    height: 4rem;
+}
