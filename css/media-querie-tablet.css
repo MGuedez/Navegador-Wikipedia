@@ -19,7 +19,7 @@
 
 /* ----------BROWSER INFORMATION----------- */
 .browser__information {
-    grid-template-columns: 25rem repeat(3, 1fr);
+    grid-template-columns: 35% repeat(3, 1fr);
     align-items: flex-start;
     margin-top: 2rem;
 }
