@@ -1,0 +1,121 @@
+/* ----------CONTAINER----------- */
+.container {
+    padding: 2rem 1rem;
+}
+
+/* ----------BROWSER CONTAINER----------- */
+.browser__container {
+    grid-template-columns: 2rem repeat(7, 6rem) 2rem;
+    grid-template-rows: repeat(9, 6rem);
+    align-items: center;
+    justify-content: center;
+}
+
+/*? ----------CENTRAL LOGOTYPE----------- */
+.logo {
+    justify-self: center;
+    grid-column: 4 / span 3;
+    grid-row: 3 / span 3;
+    padding: 0 2rem;
+}
+
+.logo img {
+    width: 20rem;
+    object-fit: cover;
+}
+
+.central__title {
+    justify-self: center;
+    grid-column-start: span 9;
+}
+
+/*? ----------ARTICLES----------- */
+.articles__language h3 {
+    margin: 0;
+}
+
+
+.articles__language:nth-of-type(1) {
+    grid-column: 2 / span 3;
+    justify-self: center;
+    grid-row: 2;
+}
+
+.articles__language:nth-of-type(2) {
+    grid-column: 6 / span 3;
+    justify-self: center;
+    grid-row: 2;
+}
+
+.articles__language:nth-of-type(3) {
+    grid-column: 2 / span 2;
+    justify-self: start;
+    grid-row: 3;
+}
+
+.articles__language:nth-of-type(4) {
+    grid-column: 7 / span 2;
+    justify-self: end;
+    grid-row: 3;
+}
+
+.articles__language:nth-of-type(5) {
+    grid-column: 1 / span 3;
+    justify-self: start;
+    grid-row: 4;
+}
+
+.articles__language:nth-of-type(6) {
+    grid-column: 7 / span 3;
+    justify-self: end;
+    grid-row: 4;
+}
+
+.articles__language:nth-of-type(7) {
+    grid-column: 2 / span 2;
+    justify-self: start;
+    grid-row: 5;
+}
+
+.articles__language:nth-of-type(8) {
+    grid-column: 7 / span 2;
+    justify-self: end;
+    grid-row: 5;
+}
+
+.articles__language:nth-of-type(9) {
+    grid-column: 3 /span 2;
+    justify-self: start;
+    grid-row: 6;
+}
+
+.articles__language:nth-of-type(10) {
+    grid-column: 6 / span 2;
+    justify-self: end;
+    grid-row: 6;
+}
+
+.articles__language span {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 2rem;
+    text-align: center;
+    color: gray;
+}
+
+
+.search {
+    grid-column-start: span 9;
+    grid-row: 7 / 8;
+}
+
+.button__articles--language {
+    grid-column-start: span 9;
+    grid-row: 8 / 9;
+}
+
+.dividing__line {
+    grid-column-start: span 9;
+    grid-row: 9 / 10;
+}
