@@ -16,3 +16,46 @@
 .button__articles--language::after {
     right: -9.5rem;
 }
+
+/* ----------BROWSER INFORMATION----------- */
+.browser__information {
+    grid-template-columns: 25rem repeat(3, 1fr);
+    align-items: flex-start;
+    margin-top: 2rem;
+}
+
+/* ?------------CENTRAL INFORMATION WIKIPEDIA-------------- */
+.central__information {
+    flex-direction: row;
+    align-items: flex-start;
+    grid-column-start: span 1;
+}
+
+.central__information p {
+    padding: 0 0 0 1rem;
+    margin: 0;
+    text-align: initial;
+}
+
+/*? ----------DOWNLOAD APPLICATION----------- */
+
+.download__application {
+    grid-column-start: span 1;
+    grid-row: 2;
+    padding: 0 1.5rem;
+}
+
+.download__application h3,
+.download__application p {
+    text-align: initial;
+}
+
+.download__application ul {
+    min-width: 100%;
+    flex-direction: column;
+}
+
+/*? ----------LICENSE TERMS AND CONDITIONS----------- */
+.license__terms--conditions {
+    grid-column-start: span 4;
+}
