@@ -181,7 +181,7 @@ body {
     margin-bottom: 2rem;
 }
 
-/* ----------BROWSER CONTAINER----------- */
+/* ----------BROWSER INFORMATION----------- */
 .browser__information {
     width: 100%;
     display: grid;
@@ -218,9 +218,7 @@ body {
 /*? ----------OTHER PROJECT----------- */
 .other__project {
     display: flex;
-    justify-content: center;
     align-items: center;
-
 }
 
 .other__project figure {
@@ -252,7 +250,7 @@ body {
 
 .download__application {
     grid-column-start: span 2;
-    background-color: #f8f9fa;;
+    background-color: #f8f9fa;
 }
 
 .download__application h3,
