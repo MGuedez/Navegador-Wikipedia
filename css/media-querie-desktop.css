@@ -20,4 +20,12 @@
     font-size: 1.6rem;
 }
 
+/*? ----------OTHER PROJECT----------- */
+.other__project p {
+    font-size: 1.3rem;
+}
 
+/*? ----------DOWNLOAD APPLICATION----------- */
+.download__application ul {
+    flex-direction: row;
+}
