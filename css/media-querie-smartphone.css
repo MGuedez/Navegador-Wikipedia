@@ -112,7 +112,7 @@
     width: 4.5rem;
     height: .1rem;
     top: 1.6rem;
-    background-color: gray;
+    background-color: #ccc;
 }
 
 .button__articles--language::before {

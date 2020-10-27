@@ -4,6 +4,11 @@
 }
 
 /*? ----------ARTICLES----------- */
+.button__articles--language {
+    width: 90%;
+    height: 3.5rem;
+}
+
 .button__articles--language::before,
 .button__articles--language::after {
     width: 8.5rem;

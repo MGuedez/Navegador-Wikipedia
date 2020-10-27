@@ -1,0 +1,40 @@
+/* ----------CONTAINER----------- */
+.container {
+    padding: 3rem 5rem 1rem;
+}
+
+/* ----------BROWSER CONTAINER----------- */
+.browser__container {
+    grid-template-columns: 2.8rem repeat(7, 7.3rem) 2.8rem;
+    grid-template-rows: repeat(6, 6.2rem) repeat(2, 8rem);
+}
+
+/*? ----------CENTRAL LOGOTYPE----------- */
+.central__title {
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+}
+
+.central__title .letter {
+    font-size: 4rem;
+}
+
+.central__title--subtitle {
+    font-size: 1.75rem;
+    letter-spacing: initial;
+}
+
+/*? ----------ARTICLES----------- */
+.articles__language h3 {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.articles__language span {
+    font-size: 1.4rem;
+}
+
+.logo img {
+    width: 22rem;
+}
