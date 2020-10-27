@@ -144,10 +144,7 @@ body {
     border: .8px solid gray;
     outline: none;
     background: none;
-    margin-bottom: 2rem;
-}
-
-.button__articles--language {
+    margin-bottom: 3rem;
     background-color: #f8f9fa;
 }
 
@@ -173,8 +170,8 @@ body {
     color: var(--title--color);
 }
 
+/*? ----------DIVIDING LINE----------- */
 .dividing__line {
-    grid-column-start: span 3;
     width: 100%;
     height: .1rem;
     background-color: gray;
