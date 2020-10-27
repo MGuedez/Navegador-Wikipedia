@@ -1,0 +1,18 @@
+/*? ----------CENTRAL LOGOTYPE----------- */
+.central__title {
+    font-size: 2.7rem;
+}
+
+/*? ----------ARTICLES----------- */
+.button__articles--language::before,
+.button__articles--language::after {
+    width: 8.5rem;
+}
+
+.button__articles--language::before {
+    left: -9.5rem;
+}
+
+.button__articles--language::after {
+    right: -9.5rem;
+}
