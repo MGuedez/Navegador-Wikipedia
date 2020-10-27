@@ -20,6 +20,23 @@
     font-size: 1.6rem;
 }
 
+.button__articles--language {
+    width: 80%;
+    height: 4rem;
+}
+
+.button__articles--img img {
+    width: 2rem;
+}
+
+.button__articles--language span {
+    font-size: 1.6rem;
+}
+
+.fa-angle-down {
+    font-size: 1.8rem;
+}
+
 /*? ----------OTHER PROJECT----------- */
 .other__project p {
     font-size: 1.3rem;
